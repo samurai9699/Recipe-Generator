@@ -401,7 +401,7 @@ export const recipeDatabase: Recipe[] = [
       { name: "zucchini", amount: "1", unit: "large" },
       { name: "olive oil", amount: "2", unit: "tbsp" },
       { name: "lemon juice", amount: "2", unit: "tbsp" },
-      { name: "garрих1: "garlic powder", amount: "1", unit: "tsp" },
+      { name: "garрих1: garlic powder", amount: "1", unit: "tsp" },
       { name: "dried herbs", amount: "1", unit: "tsp" },
       { name: "salt", amount: "1/2", unit: "tsp" },
       { name: "black pepper", amount: "1/4", unit: "tsp" }
