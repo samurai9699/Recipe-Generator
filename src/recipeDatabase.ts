@@ -34,7 +34,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "High in fiber and plant protein to help regulate blood sugar and support heart health",
     prepTime: "15 min",
-    cookTime: "15 min"
+    cookTime: "15 min",
+    nutritionalInfo: {
+      calories: 320,
+      protein: "12g",
+      carbs: "45g",
+      fat: "12g",
+      fiber: "10g",
+      sodium: "400mg"
+    },
+    storageTips: "Store in an airtight container in the refrigerator for up to 4 days. Keep dressing separate until serving to maintain freshness.",
+    servingSuggestions: "Serve with a side of hummus and pita chips for a complete Mediterranean meal."
   },
   {
     id: "salmon-avocado-salad",
@@ -69,7 +79,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Rich in omega-3 fatty acids to reduce inflammation and support cardiovascular health",
     prepTime: "10 min",
-    cookTime: "10 min"
+    cookTime: "10 min",
+    nutritionalInfo: {
+      calories: 450,
+      protein: "35g",
+      carbs: "10g",
+      fat: "30g",
+      fiber: "7g",
+      sodium: "300mg"
+    },
+    storageTips: "Store cooked salmon and greens separately in airtight containers in the refrigerator for up to 2 days. Assemble before serving.",
+    servingSuggestions: "Pair with a glass of sparkling water with lemon for a refreshing, low-calorie meal."
   },
   {
     id: "chia-pudding-breakfast",
@@ -98,7 +118,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "High in fiber and omega-3s to help stabilize blood sugar and support digestive health",
     prepTime: "5 min",
-    cookTime: "0 min"
+    cookTime: "0 min",
+    nutritionalInfo: {
+      calories: 200,
+      protein: "6g",
+      carbs: "20g",
+      fat: "10g",
+      fiber: "8g",
+      sodium: "100mg"
+    },
+    storageTips: "Store in airtight containers in the refrigerator for up to 5 days. Add toppings just before serving.",
+    servingSuggestions: "Enjoy with a hot cup of green tea for a balanced, energizing breakfast."
   },
   {
     id: "lentil-vegetable-curry",
@@ -135,7 +165,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Anti-inflammatory spices help reduce inflammation while plant protein supports stable blood sugar",
     prepTime: "10 min",
-    cookTime: "30 min"
+    cookTime: "30 min",
+    nutritionalInfo: {
+      calories: 280,
+      protein: "14g",
+      carbs: "35g",
+      fat: "10g",
+      fiber: "12g",
+      sodium: "450mg"
+    },
+    storageTips: "Store in an airtight container in the refrigerator for up to 5 days or freeze for up to 3 months.",
+    servingSuggestions: "Serve with a side of brown rice or naan for a hearty, comforting meal."
   },
   {
     id: "greek-yogurt-parfait",
@@ -163,7 +203,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Probiotics support digestive health while protein helps maintain stable blood sugar levels",
     prepTime: "5 min",
-    cookTime: "0 min"
+    cookTime: "0 min",
+    nutritionalInfo: {
+      calories: 250,
+      protein: "15g",
+      carbs: "30g",
+      fat: "8g",
+      fiber: "5g",
+      sodium: "80mg"
+    },
+    storageTips: "Prepare components separately and store in the refrigerator for up to 3 days. Assemble just before serving to keep granola crunchy.",
+    servingSuggestions: "Pair with a cup of herbal tea for a light, gut-friendly breakfast."
   },
   {
     id: "sweet-potato-kale-salad",
@@ -196,7 +246,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "High in antioxidants and fiber to support heart health and blood sugar regulation",
     prepTime: "15 min",
-    cookTime: "30 min"
+    cookTime: "30 min",
+    nutritionalInfo: {
+      calories: 300,
+      protein: "7g",
+      carbs: "40g",
+      fat: "14g",
+      fiber: "9g",
+      sodium: "350mg"
+    },
+    storageTips: "Store in an airtight container in the refrigerator for up to 4 days. Keep dressing separate to prevent wilting.",
+    servingSuggestions: "Add grilled chicken or tofu for extra protein, and serve with a glass of iced herbal tea."
   },
   {
     id: "zucchini-noodle-pesto",
@@ -228,7 +288,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Low in carbohydrates while providing healthy fats to support stable blood sugar",
     prepTime: "15 min",
-    cookTime: "0 min"
+    cookTime: "0 min",
+    nutritionalInfo: {
+      calories: 350,
+      protein: "10g",
+      carbs: "12g",
+      fat: "30g",
+      fiber: "4g",
+      sodium: "500mg"
+    },
+    storageTips: "Store zucchini noodles and pesto separately in the refrigerator for up to 3 days. Toss just before serving.",
+    servingSuggestions: "Pair with grilled shrimp or chicken for a protein-packed meal."
   },
   {
     id: "turkey-stuffed-peppers",
@@ -264,7 +334,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Lean protein and fiber help maintain healthy weight and stable blood sugar levels",
     prepTime: "20 min",
-    cookTime: "35 min"
+    cookTime: "35 min",
+    nutritionalInfo: {
+      calories: 320,
+      protein: "25g",
+      carbs: "30g",
+      fat: "10g",
+      fiber: "7g",
+      sodium: "400mg"
+    },
+    storageTips: "Store in an airtight container in the refrigerator for up to 4 days or freeze for up to 2 months.",
+    servingSuggestions: "Serve with a side salad of mixed greens for a balanced, nutrient-rich dinner."
   },
   {
     id: "green-smoothie-bowl",
@@ -293,7 +373,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Packed with antioxidants and fiber to support hormone balance and digestive health",
     prepTime: "5 min",
-    cookTime: "0 min"
+    cookTime: "0 min",
+    nutritionalInfo: {
+      calories: 280,
+      protein: "6g",
+      carbs: "40g",
+      fat: "12g",
+      fiber: "8g",
+      sodium: "50mg"
+    },
+    storageTips: "Prepare smoothie base and store in the refrigerator for up to 24 hours. Add toppings just before serving.",
+    servingSuggestions: "Top with extra fresh fruit or a sprinkle of granola for added texture."
   },
   {
     id: "baked-cod-vegetables",
@@ -311,7 +401,7 @@ export const recipeDatabase: Recipe[] = [
       { name: "zucchini", amount: "1", unit: "large" },
       { name: "olive oil", amount: "2", unit: "tbsp" },
       { name: "lemon juice", amount: "2", unit: "tbsp" },
-      { name: "garlic powder", amount: "1", unit: "tsp" },
+      { name: "garрих1: "garlic powder", amount: "1", unit: "tsp" },
       { name: "dried herbs", amount: "1", unit: "tsp" },
       { name: "salt", amount: "1/2", unit: "tsp" },
       { name: "black pepper", amount: "1/4", unit: "tsp" }
@@ -329,7 +419,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Low in sodium and high in omega-3s to support cardiovascular and kidney health",
     prepTime: "15 min",
-    cookTime: "20 min"
+    cookTime: "20 min",
+    nutritionalInfo: {
+      calories: 300,
+      protein: "30g",
+      carbs: "15g",
+      fat: "12g",
+      fiber: "5g",
+      sodium: "250mg"
+    },
+    storageTips: "Store in an airtight container in the refrigerator for up to 3 days. Reheat gently to avoid overcooking fish.",
+    servingSuggestions: "Serve with a side of quinoa or a light green salad for a complete meal."
   },
   {
     id: "cauliflower-rice-stir-fry",
@@ -364,7 +464,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Very low in carbohydrates while providing fiber and antioxidants for blood sugar control",
     prepTime: "15 min",
-    cookTime: "10 min"
+    cookTime: "10 min",
+    nutritionalInfo: {
+      calories: 150,
+      protein: "5g",
+      carbs: "15g",
+      fat: "8g",
+      fiber: "6g",
+      sodium: "600mg"
+    },
+    storageTips: "Store in an airtight container in the refrigerator for up to 4 days. Reheat in a pan for best texture.",
+    servingSuggestions: "Add tofu or edamame for extra protein, and serve with a side of miso soup."
   },
   {
     id: "overnight-oats",
@@ -394,7 +504,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "High in soluble fiber to help lower cholesterol and stabilize blood sugar levels",
     prepTime: "5 min",
-    cookTime: "0 min"
+    cookTime: "0 min",
+    nutritionalInfo: {
+      calories: 300,
+      protein: "8g",
+      carbs: "45g",
+      fat: "12g",
+      fiber: "9g",
+      sodium: "100mg"
+    },
+    storageTips: "Store in airtight jars in the refrigerator for up to 5 days. Add toppings just before serving.",
+    servingSuggestions: "Top with a dollop of Greek yogurt for extra protein and creaminess."
   },
   {
     id: "mediterranean-hummus-wrap",
@@ -427,7 +547,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Rich in fiber and healthy fats to support heart health and blood sugar control",
     prepTime: "10 min",
-    cookTime: "0 min"
+    cookTime: "0 min",
+    nutritionalInfo: {
+      calories: 350,
+      protein: "10g",
+      carbs: "45g",
+      fat: "15g",
+      fiber: "8g",
+      sodium: "600mg"
+    },
+    storageTips: "Wrap tightly in foil or plastic wrap and store in the refrigerator for up to 24 hours. Best served fresh.",
+    servingSuggestions: "Serve with a side of fresh fruit or a small Greek salad."
   },
   {
     id: "berry-spinach-smoothie",
@@ -454,7 +584,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "High in antioxidants and fiber to reduce inflammation and support overall health",
     prepTime: "5 min",
-    cookTime: "0 min"
+    cookTime: "0 min",
+    nutritionalInfo: {
+      calories: 200,
+      protein: "4g",
+      carbs: "35g",
+      fat: "5g",
+      fiber: "7g",
+      sodium: "100mg"
+    },
+    storageTips: "Best consumed immediately. Can be stored in a sealed container in the refrigerator for up to 24 hours; shake well before drinking.",
+    servingSuggestions: "Serve with a handful of almonds for a balanced, energizing snack."
   },
   {
     id: "baked-sweet-potato",
@@ -487,7 +627,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "High in fiber and complex carbohydrates to help regulate blood sugar and support heart health",
     prepTime: "10 min",
-    cookTime: "60 min"
+    cookTime: "60 min",
+    nutritionalInfo: {
+      calories: 350,
+      protein: "12g",
+      carbs: "55g",
+      fat: "10g",
+      fiber: "15g",
+      sodium: "400mg"
+    },
+    storageTips: "Store sweet potatoes and toppings separately in the refrigerator for up to 4 days. Reheat potatoes before assembling.",
+    servingSuggestions: "Serve with a side of steamed greens or a light salad for a well-rounded meal."
   },
   {
     id: "green-tea-energy-balls",
@@ -518,7 +668,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Antioxidants from matcha help boost metabolism while healthy fats provide sustained energy",
     prepTime: "15 min",
-    cookTime: "0 min"
+    cookTime: "0 min",
+    nutritionalInfo: {
+      calories: 100,
+      protein: "2g",
+      carbs: "12g",
+      fat: "5g",
+      fiber: "2g",
+      sodium: "50mg"
+    },
+    storageTips: "Store in an airtight container in the refrigerator for up to 7 days or freeze for up to 1 month.",
+    servingSuggestions: "Enjoy with a cup of matcha tea for a midday energy boost."
   },
   {
     id: "bone-broth-soup",
@@ -552,7 +712,17 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Rich in collagen and amino acids to support gut healing and reduce inflammation",
     prepTime: "10 min",
-    cookTime: "20 min"
+    cookTime: "20 min",
+    nutritionalInfo: {
+      calories: 120,
+      protein: "10g",
+      carbs: "10g",
+      fat: "4g",
+      fiber: "3g",
+      sodium: "500mg"
+    },
+    storageTips: "Store in an airtight container in the refrigerator for up to 5 days or freeze for up to 3 months.",
+    servingSuggestions: "Serve with a slice of gluten-free bread or a small side salad for a light meal."
   },
   {
     id: "quinoa-tabbouleh",
@@ -586,6 +756,16 @@ export const recipeDatabase: Recipe[] = [
     ],
     healthBenefits: "Complete protein and fiber help maintain stable blood sugar and support heart health",
     prepTime: "20 min",
-    cookTime: "15 min"
+    cookTime: "15 min",
+    nutritionalInfo: {
+      calories: 250,
+      protein: "8g",
+      carbs: "30g",
+      fat: "12g",
+      fiber: "6g",
+      sodium: "300mg"
+    },
+    storageTips: "Store in an airtight container in the refrigerator for up to 5 days. Refresh with a squeeze of lemon before serving.",
+    servingSuggestions: "Serve with grilled fish or falafel for a Mediterranean-inspired meal."
   }
 ];
