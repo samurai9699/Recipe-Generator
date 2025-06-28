@@ -18,7 +18,7 @@ const allergyOptions = [
 
 const healthConditionOptions = [
   'PCOS', 'Heart Problems', 'Ulcers', 'Diabetes', 
-  'High Blood Pressure', 'Kidney Disease', 'IBS', 'Crohn\'s Disease'
+  'High Blood Pressure', 'Kidney Disease', 'IBS', "Crohn's Disease"
 ];
 
 const mealTypeOptions = [
@@ -349,7 +349,8 @@ export default function RecipeForm({ onSubmit, isLoading }: RecipeFormProps) {
               type="submit"
               disabled={isLoading}
               className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 disabled:from-gray-400 disabled:to-gray-500 text-white font-semibold py-4 px-12 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 disabled:transform-none transition-all duration-200 text-lg flex items-center mx-auto"
-              aria-labelទ
+              aria-label="Generate recipe recommendations"
+            >
               {isLoading ? (
                 <>
                   <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-3"></div>
