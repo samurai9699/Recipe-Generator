@@ -43,7 +43,7 @@ export default function WelcomeScreen({ onStart }: WelcomeScreenProps) {
         
         {/* Title */}
         <h1 className="text-5xl font-bold text-gray-800 mb-4 bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent">
-          Healthy Recipe Generator
+          HealthForge
         </h1>
         
         {/* Subtitle */}
